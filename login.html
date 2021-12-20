@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<title>Login basico</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="loginObfuscator.js"></script>
+	<script src="login.js"></script>
+    <script>"hash.js"</script>
 	<link rel="stylesheet" href="./css/estiloLogin.css"> 
 	<link rel="stylesheet" href="./css/boostrap.css">
 	<script type="text/javascript" src="js/main.js"></script>
@@ -62,7 +63,7 @@
 <body>
   <div class="caja">
 	  <h2>Inicio de Sesión</h2>
-	  <form action="">
+	  <form id="login_form">
 		  <div class="inputcaja">
 			  <input  type="text" class="form-control" id="username" placeholder="name@example.com">
 			  <label for="">usuario</label>
@@ -71,7 +72,7 @@
 			<input type="password" class="form-control" id="password" placeholder="Password">
 			<label for="">Contraseña</label>
 		  </div>
-		  <input type="button" value="Ingresar" onclick="validar()">
+		  <input type="button" value="Ingresar" onclick="checkUserLogin();">
 		  <p><a href="Registro.html">¿No tiene una cuenta?</a></p>
 	  </form>
   </div>
