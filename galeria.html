@@ -86,11 +86,18 @@
             <a href="#" class="gallery__category" data-filter=".aventuras">Aventuras</a>
             <a href="#" class="gallery__category" data-filter=".carreras">Carreras</a>
             <a href="#" class="gallery__category" data-filter=".deportes">Deportes</a>
-            <a href="#" class="gallery__category" data-filter="">A-Z</a>
-            <a href="#" class="gallery__category" data-filter="">Z-A</a>
-            <a href="#" class="gallery__category" data-filter="">MENOR PRECIO</a>
-            <a href="#" class="gallery__category" data-filter="">MAYOR PRECIO</a>
         </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Ordenamiento
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">A-Z</a></li>
+              <li><a class="dropdown-item" href="#">Z-A</a></li>
+              <li><a class="dropdown-item" href="#">Precio Mayor</a></li>
+              <li><a class="dropdown-item" href="#">Precio Menor</a></li>
+            </ul>
+          </div>
 
         <div id="galeria_productos" class="gallery__products">
 
@@ -102,6 +109,9 @@
 
     <!-- Lightbox -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Main JS -->
     <script src="js/galeria.js"></script>
