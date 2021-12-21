@@ -4,7 +4,7 @@ function checkUserLogin(){
     if (username == '' || password == ''){
         alert('Debe ingresar el usuario y la contraseña para continuar');
     }else{
-        let url = "js/contraseña.json";
+        let url = "js/contrasena.json";
         $.getJSON( url , function( data ) {
             console.log(data);
             sha256(password).then( function(respuestaHash) {
