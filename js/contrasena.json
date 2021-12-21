@@ -3,15 +3,15 @@
     "users": [
         {
             "idUser": 1,
-            "user": "Admin",
-            "password": "c1c224b03cd9bc7b6a86d77f5dace40191766c485cd55dc48caf9ac873335d6f",
+            "user": "usuario",
+            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
             "perfil": "admin",
             "status": true
         },
         {
             "idUser": 2,
-            "user": "Empleado",
-            "password": "6f0babb306736eb2850c4af9541b87473e92e3010ddecb843a4a10defe9852cb",
+            "user": "Usuario",
+            "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
             "perfil": "cadete",
             "status": true
         }
