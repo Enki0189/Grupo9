@@ -1,97 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Login basico</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="login.js"></script>
-    <script src = "js/hash.js"></script>
-	<link rel="stylesheet" href="./css/estiloLogin.css"> 
-	<link rel="stylesheet" href="./css/boostrap.css">
-	<script type="text/javascript" src="js/main.js"></script>
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-            <img class="navbar-brand" src="imagenes/Logo.png" height="60px" style="background-color: rgb(0, 230, 57); border-radius: 50px; padding: 2px;"> </img>
-            <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <a href="./index.html" style="padding-left: 10px;color: #c7c7c7">Inicio</a>
-                <a href="./index.html" style="padding-left: 10px;color: #c7c7c7 ">Ofertas</a>
-                <a href="./index.html" style="padding-left: 10px;color: #c7c7c7">Recomendados</a>
-                <a href="./galeria.html" style="padding-left: 10px;color: #c7c7c7 ">Todos los juegos</a>
-
-
-                <!-- Listas -->
-
-                <ul class="list-unstyled ps-0">
-                    <li class="mb-1">
-                        <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-                    Categorias
-                  </button>
-                        <div class="collapse show" id="home-collapse">
-                            <ul class="list-unstyled">
-
-                                <li><a href="" class="link-dark rounded ">Free to play</a></li>
-                                <li><a href="" class="link-dark rounded ">Acción</a></li>
-                                <li><a href="" class="link-dark rounded ">Aventuras</a></li>
-                                <li><a href="" class="link-dark rounded ">Carreras </a></li>
-                                <li><a href="" class="link-dark rounded ">Deportes</a></li>
-                                <li><a href="" class="link-dark rounded ">Estrategia</a></li>
-                                <li><a href="" class="link-dark rounded ">Multijugador masivo</a></li>
-                                <li><a href="" class="link-dark rounded ">Rol</a></li>
-                                <li><a href="" class="link-dark rounded ">Simuladores</a></li>
-                            </ul>
-                        </div>
-                    </li>
-
-
-                    <li class="border-top my-3"></li>
-                    <li class="mb-1">
-                        <a href="contacto.html" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
-                    </li>
-                </ul>
-                <!-- Listas -->
-            </div>
-            <div id="main ">
-                <button class="openbtn " onclick="openNav() ">☰ </button>
-            </div>
-            <div class="collapse navbar-collapse " id="navbarCollapse ">
-                <ul class="navbar-nav  mb-2 mb-md-0 ">
-                    <p style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px; margin-top: 10px; margin-left: 10px; "> VIRGIN GAMING</p>
-                </ul>
-    </nav>
+    <meta charset="utf-8">
+    <title>Login basico</title>
+    <link rel="stylesheet" href="./css/stylelogin.css">
 </head>
+
 <body>
-  <div class="caja">
-	  <h2>Inicio de Sesión</h2>
-	  <form id="login_form">
-		  <div class="inputcaja">
-			  <input  type="text" class="form-control" id="username" placeholder="name@example.com">
-			  <label for="">usuario</label>
-		  </div>
-		  <div class="inputcaja">
-			<input type="password" class="form-control" id="password" placeholder="Password">
-			<label for="">Contraseña</label>
-		  </div>
-		  <input type="button" value="Ingresar" onclick="checkUserLogin();">
-		  <p><a href="Registro.html">¿No tiene una cuenta?</a></p>
-	  </form>
-  </div>
-  <form id="login_form"  action="index.html">
-    <input type="hidden" name="id" id="userId"/>
-</form>
-  <br><br><br>
-  <footer class="pie_de_pagina">
-    <div class="box_redes"><br>
-        <h3 style="color: gainsboro;">SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
-        <div class="redes sociales">
-            <a href="http://www.facebook.com/" target="_blank">
-                <img src="imagenes/logo_facebook.png" height=40px>
-                <a href="https://www.instagram.com/?hl=es" target="_blank">
-                <img src="imagenes/logo_insta.png" height=40px>
-                <a href="https://www.twitter.com/?lang=es" target="_blank">
-                <img src="imagenes/logo_twitter.png" height=48px>
-        </div>
+    <div class="caja">
+        <h2>Inicio de Sesión</h2>
+        <form action="">
+            <div class="inputcaja">
+                <input type="text" name="usuario" required="" id="usuario">
+                <label for="">Usuario</label>
+            </div>
+            <div class="inputcaja">
+                <input type="password" name="pass" required="" id="pass">
+                <label for="">Contraseña</label>
+            </div>
+            <input type="submit" value="Ingresar" onclick="validar()">
+            <p><a href="Registro.html">¿No tiene una cuenta?</a></p>
+        </form>
     </div>
-   </footer>
+    <script>
+        function validar() {
+            var usuario = document.getElementById("usuario").value;
+            var Contraseña = document.getElementById("pass").value;
+
+            if (usuario == "usuario" && Contraseña == "1234") {
+                alert(window.location.href = "Registro.html");
+            } else {
+                alert("Verifique sus credenciales");
+            }
+        }
+    </script>
 </body>
+
 </html>
