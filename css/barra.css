@@ -1,0 +1,22 @@
+sidebar{    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: #262831;
+    box-shadow: 0 0 15px #262831;
+      overflow: hidden;
+    z-index: 100;}
+sidebar .logo{    background: #202129;}
+sidebar .logo img{width: 100%;}
+sidebar ul{list-style: none;
+    margin: 0;
+    padding: 0;}
+sidebar ul li{}
+sidebar ul a{    
+  width: 100%;
+    display: block;
+    line-height: 40px;
+    padding-left: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;}
+sidebar ul a:hover{ transition: all 0.3s;background: #4B5B68;  }
