@@ -53,12 +53,12 @@ function checkUser(data, username, password){
    
 }
 
-async function sha256(message) {
+function sha256(message) {
     // encode as UTF-8
     const msgBuffer = new TextEncoder('utf-8').encode(message);
 
     // hash the message
-    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    const hashBuffer = crypto.subtle.digest('SHA-256', msgBuffer);
 
     // convert ArrayBuffer to Array
     const hashArray = Array.from(new Uint8Array(hashBuffer));
