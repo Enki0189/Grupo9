@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "tipo": "Producto",
     "nombre": "Valheim",
     "generos": "accion aventuras",
@@ -20,6 +21,7 @@
     "imgPath": "imagenes/valheim_horizontal.jpeg"
   },
   {
+    "id": 2,
     "tipo": "Producto",
     "nombre": "No Man's Sky",
     "generos": "accion aventuras",
@@ -40,6 +42,7 @@
     "imgPath": "imagenes/no-mans-sky-pc-juego-steam-cover-min.jpg"
   },
   {
+    "id": 3,
     "tipo": "Producto",
     "nombre": "Green Hell",
     "generos": "accion aventuras",
@@ -60,6 +63,7 @@
     "imgPath": "imagenes/greenhell.jpg"
   },
   {
+    "id": 4,
     "tipo": "Producto",
     "nombre": "God of War",
     "generos": "accion aventuras",
@@ -80,6 +84,7 @@
     "imgPath": "imagenes/GOW.jpg"
   },
   {
+    "id": 5,
     "tipo": "Producto",
     "nombre": "The Elder Scrolls V: Skyrim",
     "generos": "accion aventuras",
@@ -100,6 +105,7 @@
     "imgPath": "imagenes/elder.png"
   },
   {
+    "id": 6,
     "tipo": "Producto",
     "nombre": "Dying Light 2 Stay Human",
     "generos": "accion",
@@ -120,6 +126,7 @@
     "imgPath": "imagenes/dyinglight2.png"
   },
   {
+    "id": 7,
     "tipo": "Producto",
     "nombre": "Dark Souls Remastered",
     "generos": "accion aventuras",
@@ -140,6 +147,7 @@
     "imgPath": "imagenes/dsre.jpg"
   },
   {
+    "id": 8,
     "tipo": "Producto",
     "nombre": "Borderlands 2 ",
     "generos": "accion aventuras",
@@ -160,6 +168,7 @@
     "imgPath": "imagenes/borderlands.jpg"
   },
   {
+    "id": 9,
     "tipo": "Producto",
     "nombre": "Beyond Two Souls",
     "generos": "accion aventuras",
@@ -180,6 +189,7 @@
     "imgPath": "imagenes/b2s.jpg"
   },
   {
+    "id": 10,
     "tipo": "Producto",
     "nombre": "Assassin's Creed Valhalla",
     "generos": "accion aventuras",
@@ -200,6 +210,7 @@
     "imgPath": "imagenes/asvalhalla.jpg"
   },
   {
+    "id": 11,
     "tipo": "Producto",
     "nombre": "Ark Survival Evolved",
     "generos": "accion aventuras",
