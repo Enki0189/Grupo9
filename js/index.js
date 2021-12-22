@@ -67,13 +67,17 @@ function cargarJuegosRecomendados(juegos) {
                                 <p class="descuento "> ${juegosRecomendados[i].descuento}% </p>
                             </li>
                             <li>
-                                <p class="preciorebajado "> ARS$ ${juegosRecomendados[i].precioDescuento} </p>
-                            </li>`;
+                                <p class="preciorebajado "> ARS$ ${juegosRecomendados[i].precioBase} </p>
+                            </li>
+                            </ul>
+                            <p class="preciooriginal "> ARS$ ${juegosRecomendados[i].precioDescuento}</p>`;
+        } else {
+            htmlJuegosRecomendados += `</ul>
+                            <p class="preciooriginal "> ARS$ ${juegosRecomendados[i].precioBase}</p>`;
         }
 
         htmlJuegosRecomendados +=
-                        `</ul>
-                            <p class="preciooriginal "> ARS$ ${juegosRecomendados[i].precioBase}</p>
+                        `
                         </div>
                         </p>
                     </div>
