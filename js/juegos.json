@@ -17,7 +17,6 @@
     "franquicia": "Coffee Stain Publishing",
     "fechaDeLanzamiento": "2 FEBRERO 2021",
     "descripción": "Un guerrero muerto en batalla, las Valquirias llevaron su alma a Valheim, el décimo mundo nórdico. Rodeado de criaturas del caos y antiguos enemigos de los dioses, eres el guardián más joven del purgatorio primordial, encargado de matar a los viejos rivales de Odín y poner orden en Valheim. Tus pruebas comienzan en el pacífico centro desarmado de Valheim, pero los dioses recompensan a los valientes y la gloria te aguarda. Aventúrate a través de bosques imponentes y montañas cubiertas de nieve, explora y recolecta materiales valiosos para crear armas más letales, armaduras más resistentes, fortalezas vikingas y puestos de avanzadilla. Construye un poderoso barco y navega por los grandes océanos en busca de tierras exóticas... pero ten cuidado de navegar demasiado lejos...",
-    "videoPath": "imagenes/Videos/Valheim.mp4",
     "imgPath": "imagenes/valheim_horizontal.jpeg"
   },
   {
@@ -38,7 +37,6 @@
     "franquicia": false,
     "fechaDeLanzamiento": "12 AGOSTO 2016",
     "descripción": "Inspirado por la aventura y la imaginación que amamos de la ciencia ficción clásica, No Man's Sky te presenta una galaxia para explorar, llena de planetas y formas de vida únicos, y peligro y acción constantes. En No Man's Sky, cada estrella es la luz de un sol distante, cada una orbitada por planetas llenos de vida, y puedes ir a cualquiera de ellos que elijas. Vuela sin problemas desde el espacio profundo hasta las superficies planetarias, sin pantallas de carga y sin límites. En este universo infinito generado por procedimientos, descubrirás lugares y criaturas que ningún otro jugador ha visto antes, y tal vez nunca lo volverán a ver.",
-    "videoPath": "imagenes/Videos/No Man's Sky.mp4",
     "imgPath": "imagenes/no-mans-sky-pc-juego-steam-cover-min.jpg"
   },
   {
@@ -59,7 +57,6 @@
     "franquicia": "",
     "fechaDeLanzamiento": "5 SEPTIEMBRE 2019",
     "descripción": "Como hombre o mujer varado desnudo, helado y hambriento en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar recursos, fabricar artículos, cultivar, investigar tecnologías y construir refugios para resistir los elementos. Usa tu astucia y tus recursos para matar o domesticar y criar a los dinosaurios leviatán y otras criaturas primitivas que deambulan por la tierra, y únete o aprovecha a cientos de otros jugadores para sobrevivir, dominar ... ¡y escapar!",
-    "videoPath": "imagenes/Videos/Green Hell.mp4",
     "imgPath": "imagenes/greenhell.jpg"
   },
   {
@@ -80,7 +77,6 @@
     "franquicia": "",
     "fechaDeLanzamiento": "20 ABRIL 2018",
     "descripción": "Habiendo consumado su venganza contra los dioses el Olimpo años atrás, Kratos ahora vive como un hombre en el reino de los dioses y los monstruos nórdicos. En este hostil e inhóspito mundo, debe pelear por sobrevivir... y enseñarle a su hijo a hacer lo mismo.",
-    "videoPath": "imagenes/Videos/God of War 4.mp4",
     "imgPath": "imagenes/GOW.jpg"
   },
   {
@@ -101,7 +97,6 @@
     "franquicia": "The Elder Scrolls Skyrim",
     "fechaDeLanzamiento": "10 NOVIEMBRE 2011",
     "descripción": "El siguiente capítulo de la muy esperada saga Elder Scrolls llega de los creadores de los Juegos del año 2006 y 2008, Bethesda Game Studios. Skyrim reinventa y revoluciona la épica de fantasía de mundo abierto, dando vida a un mundo virtual completo abierto para que lo explores de la forma que elijas.",
-    "videoPath": "imagenes/Videos/The Elder Scrolls V_ Skyrim.mp4",
     "imgPath": "imagenes/elder.png"
   },
   {
@@ -122,8 +117,7 @@
     "franquicia": "Dying Light",
     "fechaDeLanzamiento": "4 FEBRERO 2022",
     "descripción": "Luchamos contra el virus en Harran hace 20 años. Perdimos la batalla. Y estamos cerca de perder otra vez. La Ciudad, uno de los últimos asentamientos grandes de la humanidad, se viene abajo por los conflictos internos. La civilización regresó a la Edad Oscura. Pero aún tenemos esperanza. Eres un vagabundo cuyo poder le permitirá decidir el destino de la Ciudad. Pero unas habilidades tan excepcionales nunca son gratuitas. Te persiguen memorias que no alcanzas a entender. Decides salir en busca de la verdad... y acabas en medio de una guerra. Tendrás que aprender rápido, porque necesitarás fuerza e inteligencia tanto para derrotar a tus enemigos como para conseguir aliados. Desvela los oscuros secretos que ocultan los poderosos. Elige un bando. Decide tu destino. Y, pase lo que pase no pierdas tu humanidad",
-    "videoPath": "imagenes/Videos/Dying Light 2.mp4",
-    "imgPath": "imagenes/dyinglight2.png"
+   "imgPath": "imagenes/dyinglight2.png"
   },
   {
     "id": 7,
@@ -143,7 +137,6 @@
     "franquicia": "BANDAI NAMCO Entertainment",
     "fechaDeLanzamiento": "9 OCTUBRE 2013",
     "descripción": "Luego, hubo fuego. Vuelve a experimentar el juego de definición de género aclamado por la crítica que lo inició todo. Maravillosamente remasterizado, vuelve a Lordran con asombrosos detalles de alta definición a 60 fps. Dark Souls Remastered incluye el juego principal más el DLC Artorias of the Abyss.",
-    "videoPath": "imagenes/Videos/Dark Souls Remastered.mp4",
     "imgPath": "imagenes/dsre.jpg"
   },
   {
@@ -164,7 +157,6 @@
     "franquicia": "Borderlands",
     "fechaDeLanzamiento": "20 SEPTIEMBRE 2012",
     "descripción": "Está a punto de comenzar una nueva era de disparos y botines. Juega como uno de los cuatro nuevos cazadores de bóvedas que se enfrentan a un nuevo mundo masivo de criaturas, psicópatas y el malvado cerebro, Handsome Jack. Haz nuevos amigos, equípalos con un millón de armas y lucha junto a ellos en un modo cooperativo de 4 jugadores en una búsqueda incesante de venganza y redención a través del impredecible y desconocido planeta viviente.",
-    "videoPath": "imagenes/Videos/Borderlands2.mp4",
     "imgPath": "imagenes/borderlands.jpg"
   },
   {
@@ -185,7 +177,6 @@
     "franquicia": false,
     "fechaDeLanzamiento": "9 OCTUBRE 2013",
     "descripción": "Jodie nació vinculada a una entidad misteriosa con increíbles poderes, y por ello, es diferente. Tus acciones determinarán el destino de Jodie, mientras se enfrenta a desafíos singulares, peligros extraordinarios y desgarradoras pérdidas en una aventura para descubrir la verdad sobre su ser. Crea una historia repleta de acción a través de tus decisiones y acciones mientras te pones en la piel de una chica que nació con un vínculo a una entidad sobrenatural llamada Aiden. Mientras juegas como Jodie y Aiden, encontrarás desafíos físicos y psicológicos increíbles para comprender lo que en verdad existe... más allá.",
-    "videoPath": "imagenes/Videos/Beyond Two Souls.mp4",
     "imgPath": "imagenes/b2s.jpg"
   },
   {
@@ -206,7 +197,6 @@
     "franquicia": "Assassin's Creed",
     "fechaDeLanzamiento": "10 NOVIEMBRE 2020",
     "descripción": "En Assassin's Creed Valhalla, te pondrás en la piel de Eivor, una leyenda vikinga en busca de gloria. Explora la Inglaterra de los años oscuros mientras saqueas a tus enemigos, haces prosperar tu asentamiento y consolidas tu poder político.",
-    "videoPath": "imagenes/Videos/ASSASSIN'S CREED VALHALLA.mp4",
     "imgPath": "imagenes/asvalhalla.jpg"
   },
   {
@@ -227,7 +217,68 @@
     "franquicia": false,
     "fechaDeLanzamiento": "27 AGOSTO 2017",
     "descripción": "Como hombre o mujer varado desnudo, helado y hambriento en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar recursos, fabricar artículos, cultivar, investigar tecnologías y construir refugios para resistir los elementos. Usa tu astucia y tus recursos para matar o domesticar y criar a los dinosaurios leviatán y otras criaturas primitivas que deambulan por la tierra, y únete o aprovecha a cientos de otros jugadores para sobrevivir, dominar ... ¡y escapar!",
-    "videoPath": "imagenes/Videos/ARK - Survival Evolved.mp4",
     "imgPath": "imagenes/ark-min.jpg"
+  },
+  {
+    "id": 12,
+    "tipo": "Producto",
+    "nombre": "Blur",
+    "generos": "carreras conduccion",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": false,
+    "precioBase": 359.99,
+    "precioDescuento": false,
+    "descuento": false,
+    "imgSliderPath": "imagenes/BLUR.jpg",
+    "descripciónSlider": false,
+    "desarrollador": "Bizarre Creations",
+    "editor": "Activision",
+    "franquicia": false,
+    "fechaDeLanzamiento": "27 AGOSTO 2017",
+    "descripción": "Blur es un videojuego de conducción o carreras de coches desarrollado por Bizarre Creations, que promete contar con vertiginosas carreras y devastadores combates armados entre vehículos en un intento por devolver la innovación al género.",
+    "imgPath": "imagenes/BLUR.jpg"
+  },
+  {
+    "id": 13,
+    "tipo": "Producto",
+    "nombre": "Need for speed",
+    "generos": "carreras conduccion",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": false,
+    "precioBase": 400.00,
+    "precioDescuento": false,
+    "descuento": false,
+    "imgSliderPath": "imagenes/need.jpg",
+    "descripciónSlider": false,
+    "desarrollador": "Bizarre Creations",
+    "editor": "Activision",
+    "franquicia": false,
+    "fechaDeLanzamiento": "15 noviembre del 2015",
+    "descripción": "¿Listo para adueñarte de las calles? Ponte al volante de coches emblemáticos y pisa a fondo en Ventura Bay, un patio de recreo urbano en expansión. Explora historias superpuestas mientras ganas reputación y el coche de tus sueños y conviértete en el icono de las carreras definitivo. Juega una y otra vez porque esta vez tienes 5 formas distintas de ganar.",
+    "imgPath": "imagenes/need.jpg"
+  },
+  {
+    "id": 14,
+    "tipo": "Producto",
+    "nombre": "fifa 22",
+    "generos": "deportes",
+    "productoDestacado": false,
+    "productoOferta": false,
+    "productoRecomendado": false,
+    "precioBase": 678.99,
+    "precioDescuento": false,
+    "descuento": false,
+    "imgSliderPath": "imagenes/FIFA22Horizontal-min.jpg",
+    "descripciónSlider": false,
+    "desarrollador": "EA Canada & EA Romania",
+    "editor": "Electronic Arts",
+    "franquicia": false,
+    "fechaDeLanzamiento": "1 OCT 2021",
+    "descripción": "Juega al juego del mundo con más de 17 000 jugadores, más de 700 equipos, más de 90 estadios y más de 30 ligas de todo el mundo.",
+    "imgPath": "imagenes/FIFA22Horizontal-min.jpg"
   }
+  
+
 ]
